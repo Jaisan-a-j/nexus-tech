@@ -14,22 +14,7 @@ const HomeScreen = () => {
     dispatch(fetchProducts());
   }, [dispatch]);
 
-  return (
-    <div>
-      <h1>Latest Products</h1>
-      {loading ? (
-        <p>Loading...</p>
-      ) : error ? (
-        <p>{error}</p>
-      ) : (
-        <div className="product-grid">
-          {products.map((product) => (
-            <div key={product._id}>{product.name}</div>
-          ))}
-        </div>
-      )}
-    </div>
-  );
+  return <></>;
 };
 
 export default HomeScreen;
