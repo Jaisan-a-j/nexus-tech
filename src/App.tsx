@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main style={{ padding: "20px" }}>
+      <main>
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route element={<ProtectedRoute />}>
