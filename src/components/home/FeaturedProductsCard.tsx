@@ -13,7 +13,7 @@ export const FeaturedProductsCard: FC<FeaturedProductsCardProps> = ({
   const featured = products.slice(0, 4);
 
   return (
-    <section className="mt-6 rounded-3xl bg-violet-300 p-4 shadow-sm sm:p-6">
+    <section className="mt-6 rounded-3xl bg-violet-400 p-4 shadow-sm sm:p-6">
       <div className="mb-4 flex items-center justify-between">
         <div>
           <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
